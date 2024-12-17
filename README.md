@@ -1,9 +1,9 @@
 # LocalizedCell
 This explores representation of RNA  abundances in connected parts of a cell:
-1. Using transition matrix multiplication, and Newton's method for differential equations for nuclear abundances.
+1. Using transition matrix multiplication, and Euler's method for differential equations for nuclear abundances.
     1.1  For general "RNA" that are pseudorandom sequences
     1.2  For general "micro-RNA" that are constructed by a Monte Carlo method
-3. As in 1 except nuclear abundances are determined by a Boolean network (similarly employing Newton's method as in 1).
+3. As in 1 except nuclear abundances are determined by a Boolean network (similarly employing Euler's method as in 1).
 4. Using an acyclic adjacency list where edge weights are a function of motifs and current abundances.
 
 Transcription and degradation rates are pseudorandom values in ranges determined by numbers from B10NUMB3R5 (Bionumbers); miRNA processing rates are arbitrary at this point.
